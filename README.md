@@ -1,200 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSA in C++ | Amul Kumar Verma</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            margin: 0;
-            background: #0f172a;
-            color: #e5e7eb;
-            line-height: 1.6;
-        }
+📘 Data Structures and Algorithms in C++
 
-        header {
-            background: linear-gradient(135deg, #2563eb, #1e40af);
-            padding: 40px;
-            text-align: center;
-        }
+Welcome to the DSA in C++ repository! This repository contains well-structured and beginner-friendly implementations of Data Structures and Algorithms (DSA) using C++, aimed at helping students and developers strengthen their problem-solving skills and prepare for coding interviews, competitive programming, and exams.
 
-        header h1 {
-            font-size: 2.8rem;
-            margin-bottom: 10px;
-        }
+🚀 About the Project
 
-        section {
-            padding: 40px 10%;
-        }
+This repository is designed to help you:
 
-        h2 {
-            color: #38bdf8;
-            margin-bottom: 10px;
-        }
+Understand core DSA concepts with clean and optimized C++ code
 
-        .card {
-            background: #1e293b;
-            padding: 20px;
-            border-radius: 12px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.4);
-        }
+Practice problem-solving techniques
 
-        ul {
-            padding-left: 20px;
-        }
+Prepare for coding interviews, GATE, and placements
 
-        li {
-            margin: 6px 0;
-        }
+Build strong logic and algorithmic thinking
 
-        button {
-            padding: 10px 18px;
-            border: none;
-            border-radius: 8px;
-            background: #22c55e;
-            color: #000;
-            font-weight: bold;
-            cursor: pointer;
-            margin-top: 10px;
-        }
+Each topic is organized in a structured manner with readable code and comments.
 
-        button:hover {
-            background: #16a34a;
-        }
+📂 Folder Structure DSA_IN_CPP/ │ ├── Basic Patterns/ ├── Arrays/ ├── Strings/ ├── Linked_List/ ├── Stack/ ├── Queue/ ├── Recursion/ ├── Searching/ ├── Sorting/ ├── Trees/ ├── Graphs/ ├── Dynamic_Programming/ ├── Bit_Manipulation/ ├── STL/ └── Practice_Problems/
 
-        .code-box {
-            background: #020617;
-            padding: 15px;
-            border-radius: 8px;
-            font-family: monospace;
-            overflow-x: auto;
-            display: none;
-        }
+Each folder contains:
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #020617;
-            color: #94a3b8;
-        }
-    </style>
-</head>
-<body>
+📄 Concept explanation (if applicable)
 
-<header>
-    <h1>📘 Data Structures & Algorithms in C++</h1>
-    <p>Learn • Practice • Master DSA</p>
-</header>
+💻 C++ source code
 
-<section>
-    <h2>🚀 About the Project</h2>
-    <div class="card">
-        <p>
-            This repository contains beginner-friendly and optimized implementations of
-            Data Structures and Algorithms using C++. It is designed for students preparing
-            for <b>placements, GATE, interviews, and competitive programming</b>.
-        </p>
-    </div>
-</section>
+🧠 Optimized solutions
 
-<section>
-    <h2>📂 Folder Structure</h2>
-    <div class="card">
-<pre>
-DSA_IN_CPP/
-│
-├── Basic_Patterns/
-├── Arrays/
-├── Strings/
-├── Linked_List/
-├── Stack/
-├── Queue/
-├── Recursion/
-├── Searching/
-├── Sorting/
-├── Trees/
-├── Graphs/
-├── Dynamic_Programming/
-├── Bit_Manipulation/
-├── STL/
-└── Practice_Problems/
-</pre>
-    </div>
-</section>
+🧪 Sample test cases
 
-<section>
-    <h2>⭐ Example: Star Pattern</h2>
-    <button onclick="toggleCode()">Show / Hide Code</button>
+🧠 Topics Covered
 
-    <div id="codeBlock" class="code-box">
-<pre>
-#include &lt;iostream&gt;
-using namespace std;
+✔ Arrays ✔ Strings ✔ Recursion ✔ Searching & Sorting Algorithms ✔ Linked List ✔ Stack & Queue ✔ Trees & Binary Trees ✔ Binary Search Tree (BST) ✔ Graph Algorithms (BFS, DFS, etc.) ✔ Dynamic Programming ✔ Bit Manipulation ✔ STL (Vector, Map, Set, Stack, Queue, etc.)
 
-int main() {
-    int n = 5;
-    for(int i = 1; i <= n; i++) {
-        for(int j = 1; j <= i; j++) {
-            cout << "* ";
-        }
-        cout << endl;
-    }
-    return 0;
-}
-</pre>
-    </div>
-</section>
+🛠️ Technologies Used
 
-<section>
-    <h2>🧠 Topics Covered</h2>
-    <div class="card">
-        <ul>
-            <li>Arrays & Strings</li>
-            <li>Recursion</li>
-            <li>Searching & Sorting</li>
-            <li>Stack & Queue</li>
-            <li>Linked List</li>
-            <li>Trees & Graphs</li>
-            <li>Dynamic Programming</li>
-            <li>Bit Manipulation</li>
-            <li>STL (Vector, Map, Set, Queue)</li>
-        </ul>
-    </div>
-</section>
+Language: C++ (C++17 Standard)
 
-<section>
-    <h2>🧪 How to Run</h2>
-    <div class="card">
-        <pre>
+Compiler: GCC / MinGW
+
+IDE: VS Code / CodeBlocks / Any C++ IDE
+
+🧪 How to Run the Code
+
+Clone the repository:
+
 git clone https://github.com/your-username/DSA_IN_CPP.git
+
+Navigate to the project directory:
+
 cd DSA_IN_CPP
-g++ filename.cpp -o output
-./output
-        </pre>
-    </div>
-</section>
 
-<section>
-    <h2>👨‍💻 Author</h2>
-    <div class="card">
-        <p><strong>Amul Kumar Verma</strong></p>
-        <p>B.Tech (CSE) | Aspiring Software Engineer</p>
-        <p>Passionate about DSA, AI & Software Development</p>
-    </div>
-</section>
+Compile and run any file:
 
-<footer>
-    ⭐ If you like this project, don't forget to star the repository!
-</footer>
+g++ filename.cpp -o output ./output
 
-<script>
-function toggleCode() {
-    const code = document.getElementById("codeBlock");
-    code.style.display = code.style.display === "none" ? "block" : "none";
-}
-</script>
+🎯 Who Should Use This Repository?
 
-</body>
-</html>
+Beginners learning C++ & DSA
+
+College students preparing for exams
+
+Students preparing for placements & interviews
+
+Anyone revising core DSA concepts
+
+🤝 Contributing
+
+Contributions are welcome! If you want to improve code, add explanations, or include new problems:
+
+Fork the repository
+
+Create a new branch
+
+Commit your changes
+
+Submit a Pull Request
+
+📌 Author
+
+Amul Kumar Verma 🎓 B.Tech (CSE) | Aspiring Software Engineer 💡 Passionate about DSA, AI, and Software Development
+
+⭐ Support
+
+If you find this repository helpful, don’t forget to star ⭐ the repo and share it with others!                              make it interactive with code
